@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite databases (we want to ignore our app_state.db but maybe not schema files if any)
+db/*.db
+*.sqlite3
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data artifacts (optional, remove if you want to track the CSVs)
+# data/
+# Since the CSVs are the canonical dataset for the MVP, we likely WANT to commit them. 
+# But let's ignore temp test outputs.
+test_consents_sim.csv
+test_attempts_sim.csv
+test_consents.csv
+test_state.db

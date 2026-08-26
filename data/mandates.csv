@@ -1,0 +1,285 @@
+mandate_id,customer_id,merchant_name,amount,frequency,due_day_of_month,status
+MNDT00001,CUST0001,Health Insurance,1850,monthly,1,active
+MNDT00002,CUST0002,Zomato Gold,299,monthly,22,active
+MNDT00003,CUST0002,Personal Loan EMI,8500,monthly,4,active
+MNDT00004,CUST0003,LIC Premium,2499,monthly,16,active
+MNDT00005,CUST0004,LIC Premium,2499,monthly,19,active
+MNDT00006,CUST0004,Netflix,199,monthly,11,paused
+MNDT00007,CUST0005,Netflix,199,monthly,4,active
+MNDT00008,CUST0006,Bike Loan EMI,3200,monthly,4,active
+MNDT00009,CUST0007,Personal Loan EMI,8500,monthly,1,active
+MNDT00010,CUST0007,SIP - Mutual Fund,5000,monthly,12,active
+MNDT00011,CUST0007,Jio Fiber,999,monthly,11,active
+MNDT00012,CUST0008,Zomato Gold,299,monthly,8,active
+MNDT00013,CUST0009,SIP - Mutual Fund,5000,monthly,4,paused
+MNDT00014,CUST0009,Jio Fiber,999,monthly,13,active
+MNDT00015,CUST0010,Jio Fiber,999,monthly,4,active
+MNDT00016,CUST0011,Netflix,199,monthly,16,active
+MNDT00017,CUST0012,LIC Premium,41860,monthly,14,active
+MNDT00018,CUST0012,Spotify Premium,119,monthly,3,active
+MNDT00019,CUST0012,Cult.fit Gym,1499,monthly,5,active
+MNDT00020,CUST0013,Bike Loan EMI,3200,monthly,26,active
+MNDT00021,CUST0014,Netflix,199,monthly,16,active
+MNDT00022,CUST0015,Jio Fiber,25573,monthly,23,active
+MNDT00023,CUST0015,Bike Loan EMI,3200,monthly,15,active
+MNDT00024,CUST0016,Personal Loan EMI,8500,monthly,12,active
+MNDT00025,CUST0016,Jio Fiber,999,monthly,1,active
+MNDT00026,CUST0016,Cult.fit Gym,1499,monthly,20,active
+MNDT00027,CUST0017,Bike Loan EMI,3200,monthly,15,active
+MNDT00028,CUST0017,Spotify Premium,119,monthly,21,active
+MNDT00029,CUST0018,Health Insurance,24981,monthly,28,paused
+MNDT00030,CUST0018,Cult.fit Gym,1499,monthly,21,active
+MNDT00031,CUST0019,Netflix,199,monthly,21,active
+MNDT00032,CUST0020,Spotify Premium,119,monthly,3,revoked
+MNDT00033,CUST0020,LIC Premium,2499,monthly,11,active
+MNDT00034,CUST0021,Health Insurance,1850,monthly,2,active
+MNDT00035,CUST0022,Personal Loan EMI,8500,monthly,14,active
+MNDT00036,CUST0023,Personal Loan EMI,8500,monthly,17,revoked
+MNDT00037,CUST0023,Bike Loan EMI,3200,monthly,3,active
+MNDT00038,CUST0024,LIC Premium,2499,monthly,1,active
+MNDT00039,CUST0024,Jio Fiber,999,monthly,21,active
+MNDT00040,CUST0024,Personal Loan EMI,8500,monthly,3,active
+MNDT00041,CUST0025,Bike Loan EMI,3200,monthly,15,active
+MNDT00042,CUST0025,Netflix,199,monthly,9,active
+MNDT00043,CUST0026,Zomato Gold,41762,monthly,27,active
+MNDT00044,CUST0026,Jio Fiber,999,monthly,2,active
+MNDT00045,CUST0026,Cult.fit Gym,1499,monthly,7,active
+MNDT00046,CUST0027,SIP - Mutual Fund,51533,monthly,9,active
+MNDT00047,CUST0027,LIC Premium,2499,monthly,17,active
+MNDT00048,CUST0028,Health Insurance,1850,monthly,2,active
+MNDT00049,CUST0028,Zomato Gold,299,monthly,15,active
+MNDT00050,CUST0029,Personal Loan EMI,8500,monthly,24,active
+MNDT00051,CUST0029,Health Insurance,1850,monthly,11,active
+MNDT00052,CUST0030,LIC Premium,31311,monthly,27,active
+MNDT00053,CUST0031,Spotify Premium,119,monthly,6,active
+MNDT00054,CUST0031,LIC Premium,2499,monthly,15,revoked
+MNDT00055,CUST0032,Spotify Premium,119,monthly,24,active
+MNDT00056,CUST0033,SIP - Mutual Fund,5000,monthly,15,active
+MNDT00057,CUST0033,LIC Premium,2499,monthly,4,active
+MNDT00058,CUST0034,Health Insurance,1850,monthly,17,active
+MNDT00059,CUST0034,Cult.fit Gym,1499,monthly,21,active
+MNDT00060,CUST0035,Health Insurance,1850,monthly,14,active
+MNDT00061,CUST0035,Jio Fiber,999,monthly,20,active
+MNDT00062,CUST0036,SIP - Mutual Fund,5000,monthly,27,active
+MNDT00063,CUST0037,Personal Loan EMI,8500,monthly,4,active
+MNDT00064,CUST0037,Netflix,199,monthly,1,active
+MNDT00065,CUST0038,Personal Loan EMI,8500,monthly,12,active
+MNDT00066,CUST0038,Cult.fit Gym,1499,monthly,4,paused
+MNDT00067,CUST0038,SIP - Mutual Fund,5000,monthly,25,active
+MNDT00068,CUST0039,Cult.fit Gym,1499,monthly,5,active
+MNDT00069,CUST0039,Personal Loan EMI,8500,monthly,15,active
+MNDT00070,CUST0039,Bike Loan EMI,3200,monthly,1,active
+MNDT00071,CUST0040,Personal Loan EMI,8500,monthly,27,paused
+MNDT00072,CUST0040,Health Insurance,1850,monthly,14,active
+MNDT00073,CUST0041,Bike Loan EMI,3200,monthly,9,active
+MNDT00074,CUST0041,Spotify Premium,119,monthly,6,active
+MNDT00075,CUST0042,Zomato Gold,299,monthly,27,active
+MNDT00076,CUST0042,Netflix,199,monthly,19,revoked
+MNDT00077,CUST0042,LIC Premium,2499,monthly,7,active
+MNDT00078,CUST0043,Personal Loan EMI,19815,monthly,3,active
+MNDT00079,CUST0043,Jio Fiber,999,monthly,6,active
+MNDT00080,CUST0044,Jio Fiber,999,monthly,3,active
+MNDT00081,CUST0044,Personal Loan EMI,8500,monthly,16,active
+MNDT00082,CUST0044,SIP - Mutual Fund,5000,monthly,24,active
+MNDT00083,CUST0045,Zomato Gold,299,monthly,22,active
+MNDT00084,CUST0046,Health Insurance,1850,monthly,3,active
+MNDT00085,CUST0047,Spotify Premium,119,monthly,1,active
+MNDT00086,CUST0047,LIC Premium,2499,monthly,2,active
+MNDT00087,CUST0048,Cult.fit Gym,1499,monthly,16,active
+MNDT00088,CUST0048,Jio Fiber,999,monthly,6,active
+MNDT00089,CUST0048,Personal Loan EMI,8500,monthly,16,active
+MNDT00090,CUST0049,Zomato Gold,299,monthly,7,revoked
+MNDT00091,CUST0050,LIC Premium,2499,monthly,7,active
+MNDT00092,CUST0051,Health Insurance,1850,monthly,20,active
+MNDT00093,CUST0051,SIP - Mutual Fund,5000,monthly,18,active
+MNDT00094,CUST0051,Spotify Premium,119,monthly,16,active
+MNDT00095,CUST0052,Jio Fiber,999,monthly,6,revoked
+MNDT00096,CUST0052,LIC Premium,2499,monthly,11,active
+MNDT00097,CUST0053,Bike Loan EMI,3200,monthly,1,active
+MNDT00098,CUST0053,Health Insurance,1850,monthly,18,active
+MNDT00099,CUST0053,SIP - Mutual Fund,5000,monthly,6,revoked
+MNDT00100,CUST0054,Netflix,25931,monthly,3,paused
+MNDT00101,CUST0054,SIP - Mutual Fund,5000,monthly,18,active
+MNDT00102,CUST0055,Zomato Gold,299,monthly,3,active
+MNDT00103,CUST0055,Jio Fiber,999,monthly,19,active
+MNDT00104,CUST0056,SIP - Mutual Fund,5000,monthly,6,active
+MNDT00105,CUST0056,Health Insurance,1850,monthly,18,active
+MNDT00106,CUST0057,LIC Premium,2499,monthly,9,active
+MNDT00107,CUST0057,Cult.fit Gym,1499,monthly,1,active
+MNDT00108,CUST0058,Bike Loan EMI,3200,monthly,16,revoked
+MNDT00109,CUST0058,Health Insurance,1850,monthly,6,active
+MNDT00110,CUST0058,SIP - Mutual Fund,5000,monthly,15,active
+MNDT00111,CUST0059,Personal Loan EMI,8500,monthly,18,active
+MNDT00112,CUST0060,Personal Loan EMI,8500,monthly,26,active
+MNDT00113,CUST0061,Cult.fit Gym,1499,monthly,20,active
+MNDT00114,CUST0061,LIC Premium,2499,monthly,16,active
+MNDT00115,CUST0062,Jio Fiber,999,monthly,7,active
+MNDT00116,CUST0062,Bike Loan EMI,3200,monthly,20,active
+MNDT00117,CUST0063,LIC Premium,2499,monthly,23,revoked
+MNDT00118,CUST0063,Zomato Gold,299,monthly,20,active
+MNDT00119,CUST0063,Jio Fiber,999,monthly,12,active
+MNDT00120,CUST0064,Zomato Gold,299,monthly,17,active
+MNDT00121,CUST0064,SIP - Mutual Fund,5000,monthly,14,active
+MNDT00122,CUST0065,Zomato Gold,299,monthly,28,active
+MNDT00123,CUST0066,LIC Premium,20928,monthly,24,active
+MNDT00124,CUST0067,Personal Loan EMI,8500,monthly,4,active
+MNDT00125,CUST0068,LIC Premium,2499,monthly,16,active
+MNDT00126,CUST0068,Spotify Premium,119,monthly,3,active
+MNDT00127,CUST0068,SIP - Mutual Fund,5000,monthly,23,active
+MNDT00128,CUST0069,Netflix,199,monthly,6,active
+MNDT00129,CUST0069,Jio Fiber,999,monthly,12,active
+MNDT00130,CUST0070,Cult.fit Gym,1499,monthly,13,active
+MNDT00131,CUST0071,SIP - Mutual Fund,5000,monthly,2,active
+MNDT00132,CUST0072,SIP - Mutual Fund,5000,monthly,11,revoked
+MNDT00133,CUST0072,Spotify Premium,119,monthly,20,active
+MNDT00134,CUST0073,Jio Fiber,999,monthly,12,revoked
+MNDT00135,CUST0074,Netflix,43540,monthly,3,active
+MNDT00136,CUST0074,Health Insurance,1850,monthly,10,active
+MNDT00137,CUST0075,Bike Loan EMI,3200,monthly,15,active
+MNDT00138,CUST0076,Zomato Gold,299,monthly,1,revoked
+MNDT00139,CUST0076,Cult.fit Gym,1499,monthly,3,active
+MNDT00140,CUST0077,LIC Premium,2499,monthly,17,active
+MNDT00141,CUST0077,Health Insurance,1850,monthly,5,active
+MNDT00142,CUST0078,Health Insurance,1850,monthly,1,active
+MNDT00143,CUST0079,Spotify Premium,119,monthly,1,active
+MNDT00144,CUST0080,Jio Fiber,999,monthly,2,active
+MNDT00145,CUST0080,SIP - Mutual Fund,5000,monthly,9,active
+MNDT00146,CUST0080,Netflix,199,monthly,5,active
+MNDT00147,CUST0081,SIP - Mutual Fund,5000,monthly,8,active
+MNDT00148,CUST0081,LIC Premium,2499,monthly,13,active
+MNDT00149,CUST0081,Cult.fit Gym,1499,monthly,24,active
+MNDT00150,CUST0082,Bike Loan EMI,3200,monthly,13,active
+MNDT00151,CUST0083,Health Insurance,1850,monthly,9,active
+MNDT00152,CUST0084,SIP - Mutual Fund,5000,monthly,27,active
+MNDT00153,CUST0085,Cult.fit Gym,1499,monthly,1,active
+MNDT00154,CUST0086,Spotify Premium,119,monthly,1,active
+MNDT00155,CUST0087,SIP - Mutual Fund,5000,monthly,24,active
+MNDT00156,CUST0088,Netflix,199,monthly,6,active
+MNDT00157,CUST0088,LIC Premium,2499,monthly,22,active
+MNDT00158,CUST0089,Zomato Gold,299,monthly,21,paused
+MNDT00159,CUST0089,Jio Fiber,999,monthly,12,active
+MNDT00160,CUST0090,SIP - Mutual Fund,5000,monthly,27,active
+MNDT00161,CUST0090,Zomato Gold,299,monthly,1,active
+MNDT00162,CUST0091,Zomato Gold,299,monthly,23,active
+MNDT00163,CUST0091,Spotify Premium,119,monthly,23,revoked
+MNDT00164,CUST0091,Health Insurance,1850,monthly,5,active
+MNDT00165,CUST0092,SIP - Mutual Fund,5000,monthly,4,active
+MNDT00166,CUST0093,Health Insurance,1850,monthly,14,revoked
+MNDT00167,CUST0094,Health Insurance,1850,monthly,12,active
+MNDT00168,CUST0094,Jio Fiber,999,monthly,17,active
+MNDT00169,CUST0095,Cult.fit Gym,1499,monthly,1,active
+MNDT00170,CUST0096,Health Insurance,1850,monthly,16,active
+MNDT00171,CUST0097,Spotify Premium,119,monthly,27,active
+MNDT00172,CUST0097,Netflix,199,monthly,6,active
+MNDT00173,CUST0097,Health Insurance,1850,monthly,14,active
+MNDT00174,CUST0098,Bike Loan EMI,3200,monthly,12,active
+MNDT00175,CUST0098,Zomato Gold,299,monthly,25,active
+MNDT00176,CUST0098,SIP - Mutual Fund,5000,monthly,10,active
+MNDT00177,CUST0099,Cult.fit Gym,1499,monthly,8,active
+MNDT00178,CUST0099,Jio Fiber,999,monthly,14,active
+MNDT00179,CUST0100,LIC Premium,2499,monthly,7,revoked
+MNDT00180,CUST0101,Spotify Premium,119,monthly,1,active
+MNDT00181,CUST0101,LIC Premium,2499,monthly,12,revoked
+MNDT00182,CUST0102,LIC Premium,2499,monthly,18,active
+MNDT00183,CUST0102,Jio Fiber,999,monthly,8,revoked
+MNDT00184,CUST0103,Zomato Gold,299,monthly,4,paused
+MNDT00185,CUST0104,Bike Loan EMI,3200,monthly,4,active
+MNDT00186,CUST0104,LIC Premium,2499,monthly,14,active
+MNDT00187,CUST0105,Health Insurance,37860,monthly,15,paused
+MNDT00188,CUST0105,Personal Loan EMI,8500,monthly,2,active
+MNDT00189,CUST0106,Jio Fiber,999,monthly,1,active
+MNDT00190,CUST0107,Spotify Premium,119,monthly,8,paused
+MNDT00191,CUST0108,LIC Premium,2499,monthly,12,active
+MNDT00192,CUST0109,Bike Loan EMI,3200,monthly,1,active
+MNDT00193,CUST0109,Netflix,199,monthly,10,active
+MNDT00194,CUST0110,LIC Premium,2499,monthly,24,active
+MNDT00195,CUST0111,LIC Premium,2499,monthly,15,active
+MNDT00196,CUST0112,Netflix,199,monthly,22,active
+MNDT00197,CUST0113,Cult.fit Gym,1499,monthly,2,active
+MNDT00198,CUST0114,LIC Premium,2499,monthly,6,paused
+MNDT00199,CUST0114,Spotify Premium,119,monthly,21,active
+MNDT00200,CUST0115,Personal Loan EMI,26554,monthly,18,active
+MNDT00201,CUST0116,Personal Loan EMI,8500,monthly,1,active
+MNDT00202,CUST0116,Health Insurance,1850,monthly,1,active
+MNDT00203,CUST0116,LIC Premium,2499,monthly,14,active
+MNDT00204,CUST0117,Spotify Premium,29548,monthly,20,active
+MNDT00205,CUST0117,Personal Loan EMI,8500,monthly,15,active
+MNDT00206,CUST0117,LIC Premium,2499,monthly,14,active
+MNDT00207,CUST0118,Health Insurance,1850,monthly,1,active
+MNDT00208,CUST0119,Zomato Gold,15338,monthly,5,active
+MNDT00209,CUST0119,Health Insurance,1850,monthly,19,active
+MNDT00210,CUST0119,Netflix,199,monthly,17,paused
+MNDT00211,CUST0120,Netflix,199,monthly,5,revoked
+MNDT00212,CUST0120,LIC Premium,2499,monthly,12,active
+MNDT00213,CUST0121,Personal Loan EMI,8500,monthly,7,paused
+MNDT00214,CUST0121,SIP - Mutual Fund,5000,monthly,22,active
+MNDT00215,CUST0121,Health Insurance,1850,monthly,23,paused
+MNDT00216,CUST0122,Netflix,199,monthly,28,active
+MNDT00217,CUST0123,LIC Premium,2499,monthly,6,active
+MNDT00218,CUST0123,Health Insurance,1850,monthly,23,revoked
+MNDT00219,CUST0124,Zomato Gold,299,monthly,13,active
+MNDT00220,CUST0124,Health Insurance,1850,monthly,22,active
+MNDT00221,CUST0124,Personal Loan EMI,8500,monthly,3,active
+MNDT00222,CUST0125,SIP - Mutual Fund,5000,monthly,14,active
+MNDT00223,CUST0125,Health Insurance,1850,monthly,20,paused
+MNDT00224,CUST0126,Health Insurance,1850,monthly,14,active
+MNDT00225,CUST0127,Jio Fiber,999,monthly,14,active
+MNDT00226,CUST0127,Spotify Premium,119,monthly,2,active
+MNDT00227,CUST0127,Cult.fit Gym,1499,monthly,1,active
+MNDT00228,CUST0128,LIC Premium,2499,monthly,1,active
+MNDT00229,CUST0129,Spotify Premium,119,monthly,17,active
+MNDT00230,CUST0130,SIP - Mutual Fund,5000,monthly,7,active
+MNDT00231,CUST0130,LIC Premium,2499,monthly,9,active
+MNDT00232,CUST0130,Zomato Gold,299,monthly,8,active
+MNDT00233,CUST0131,Bike Loan EMI,3200,monthly,7,active
+MNDT00234,CUST0132,Health Insurance,1850,monthly,25,active
+MNDT00235,CUST0132,LIC Premium,2499,monthly,23,active
+MNDT00236,CUST0132,Zomato Gold,299,monthly,28,paused
+MNDT00237,CUST0133,Cult.fit Gym,1499,monthly,27,active
+MNDT00238,CUST0133,Spotify Premium,119,monthly,8,active
+MNDT00239,CUST0134,Personal Loan EMI,8500,monthly,2,active
+MNDT00240,CUST0135,Health Insurance,1850,monthly,16,active
+MNDT00241,CUST0136,Health Insurance,1850,monthly,3,active
+MNDT00242,CUST0136,LIC Premium,2499,monthly,24,active
+MNDT00243,CUST0136,Cult.fit Gym,1499,monthly,4,active
+MNDT00244,CUST0137,Zomato Gold,299,monthly,14,revoked
+MNDT00245,CUST0137,Netflix,199,monthly,28,active
+MNDT00246,CUST0138,Spotify Premium,119,monthly,1,active
+MNDT00247,CUST0138,SIP - Mutual Fund,5000,monthly,10,revoked
+MNDT00248,CUST0139,Netflix,47293,monthly,19,active
+MNDT00249,CUST0140,Personal Loan EMI,8500,monthly,22,active
+MNDT00250,CUST0140,Health Insurance,1850,monthly,4,revoked
+MNDT00251,CUST0141,Health Insurance,1850,monthly,10,active
+MNDT00252,CUST0142,Health Insurance,1850,monthly,24,paused
+MNDT00253,CUST0143,Cult.fit Gym,1499,monthly,7,active
+MNDT00254,CUST0143,Health Insurance,1850,monthly,24,active
+MNDT00255,CUST0144,Jio Fiber,999,monthly,3,active
+MNDT00256,CUST0145,Cult.fit Gym,1499,monthly,1,active
+MNDT00257,CUST0145,Bike Loan EMI,3200,monthly,13,active
+MNDT00258,CUST0146,LIC Premium,2499,monthly,27,active
+MNDT00259,CUST0147,Bike Loan EMI,3200,monthly,19,active
+MNDT00260,CUST0147,Netflix,199,monthly,10,active
+MNDT00261,CUST0148,Spotify Premium,119,monthly,3,active
+MNDT00262,CUST0148,LIC Premium,2499,monthly,25,active
+MNDT00263,CUST0149,Health Insurance,1850,monthly,14,active
+MNDT00264,CUST0149,LIC Premium,2499,monthly,3,active
+MNDT00265,CUST0150,Spotify Premium,119,monthly,24,active
+MNDT00266,CUST0150,Jio Fiber,999,monthly,23,active
+MNDT00267,CUST_GOLD001,Custom Mandate,2499,monthly,1,active
+MNDT00268,CUST_GOLD002,Custom Mandate,2499,monthly,1,active
+MNDT00269,CUST_GOLD003,Custom Mandate,2499,monthly,1,active
+MNDT00270,CUST_GOLD004,Custom Mandate,999,monthly,6,active
+MNDT00271,CUST_GOLD005,Custom Mandate,999,monthly,5,active
+MNDT00272,CUST_GOLD006,Custom Mandate,999,monthly,7,active
+MNDT00273,CUST_GOLD007,Custom Mandate,2499,monthly,12,active
+MNDT00274,CUST_GOLD008,Custom Mandate,2499,monthly,11,active
+MNDT00275,CUST_GOLD009,Custom Mandate,2499,monthly,10,active
+MNDT00276,CUST_GOLD010,Custom Mandate,1499,monthly,25,active
+MNDT00277,CUST_GOLD011,Custom Mandate,1499,monthly,25,active
+MNDT00278,CUST_GOLD012,Custom Mandate,1499,monthly,6,active
+MNDT00279,CUST_GOLD013,Custom Mandate,45956,monthly,13,active
+MNDT00280,CUST_GOLD014,Custom Mandate,36275,monthly,11,active
+MNDT00281,CUST_GOLD015,Custom Mandate,47091,monthly,12,active
+MNDT00282,CUST_GOLD016,Custom Mandate,1999,monthly,15,revoked
+MNDT00283,CUST_GOLD017,Custom Mandate,1999,monthly,14,revoked
+MNDT00284,CUST_GOLD018,Custom Mandate,1999,monthly,15,revoked

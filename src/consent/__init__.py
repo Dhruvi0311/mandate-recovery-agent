@@ -1,0 +1,3 @@
+"""
+Consent Service Module
+"""
