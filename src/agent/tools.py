@@ -2,11 +2,6 @@ from typing import Dict, Any
 from langchain_core.tools import tool
 from src.decision.decision_models import DecisionOutput
 
-# Global mock database for testing purposes
-MOCK_DB = {
-    "scheduled_retries": {}
-}
-
 class ToolException(Exception):
     """Exception raised when a tool fails its deterministic boundary checks."""
     pass
