@@ -44,7 +44,7 @@ def schedule_retry(attempt_id: str, agreed_date: str, consent_granted: bool, dec
     try:
         # We need customer_id. It's stored in decision_context state logically or we pass it down.
         # For prototype simplicity we mock a customer ID if not provided.
-        customer_id = decision_context.get("customer_id", "CUST001") 
+        customer_id = decision_context.get("customer_id") or "CUST0001" 
         
         result = scheduler.schedule_retry(
             attempt_id=attempt_id,

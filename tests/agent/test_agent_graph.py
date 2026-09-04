@@ -2,31 +2,7 @@ import unittest
 from src.agent.state import AgentState
 from src.agent.graph import build_graph
 from src.decision.decision_models import DecisionOutput
-
-class MockLLM:
-    """A fake LLM that emits hardcoded responses for testing deterministic boundaries."""
-    def __init__(self, response_type="schedule_success"):
-        self.response_type = response_type
-        
-    def invoke(self, state: AgentState):
-        if self.response_type == "schedule_success":
-            return {
-                "tool_calls": [{
-                    "name": "schedule_retry",
-                    "args": {"agreed_date": "2026-07-01"}
-                }]
-            }
-        elif self.response_type == "schedule_hallucinated_date":
-            return {
-                "tool_calls": [{
-                    "name": "schedule_retry",
-                    "args": {"agreed_date": "2099-01-01"} # Malicious/invented date
-                }]
-            }
-        elif self.response_type == "text_fallback":
-            return {
-                "content": "Since you said no, I will not schedule the retry."
-            }
+from src.agent.mock_llm import MockLLM
 
 class TestAgentGraph(unittest.TestCase):
 

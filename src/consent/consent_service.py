@@ -10,6 +10,8 @@ class ConsentService:
     def _load_consents(self):
         try:
             self.consents_df = pd.read_csv(self.data_path)
+            if 'consent_status' in self.consents_df.columns and 'status' not in self.consents_df.columns:
+                self.consents_df['status'] = self.consents_df['consent_status']
             self.consents_df['expiry_date'] = pd.to_datetime(self.consents_df['expiry_date'])
         except Exception:
             # If the file is missing or invalid, create an empty dataframe with expected schema

@@ -13,7 +13,9 @@ venv.bak/
 
 # SQLite databases (we want to ignore our app_state.db but maybe not schema files if any)
 db/*.db
+*.db
 *.sqlite3
+scratch/
 
 # Distribution / packaging
 dist/

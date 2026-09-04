@@ -3,7 +3,9 @@
 This document formally defines the data contract that all future components, Machine Learning models, and Agents must follow for the Mandate Recovery MVP.
 
 ## 1. Canonical Dataset
-The current 6 CSV files located in the `data/` directory constitute the **canonical dataset** for the MVP. They must not be modified, regenerated, or overwritten.
+> **"The canonical CSVs were the given hackathon dataset; we treated them as ground truth and audited them for leakage — full audit in docs/DATA_AUDIT.md."**
+
+The current 6 CSV files located in the `data/` directory constitute the **canonical dataset** for the MVP. They must not be modified, regenerated, or overwritten. For provenance and leakage audit details, refer to [docs/DATA_PROVENANCE.md](DATA_PROVENANCE.md) and [docs/DATA_AUDIT.md](DATA_AUDIT.md).
 
 The 6 canonical datasets are:
 1. `customers.csv`

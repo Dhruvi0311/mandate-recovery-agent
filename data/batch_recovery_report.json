@@ -1,0 +1,33 @@
+{
+  "total_failed_attempts": 363,
+  "total_amount": 1652361.0,
+  "intelligent_strategy": {
+    "amount_recovered": 441945.0,
+    "recovery_rate": 0.2507,
+    "recovered_count": 91,
+    "retries_attempted": 140
+  },
+  "naive_baseline": {
+    "amount_recovered": 415091.0,
+    "recovery_rate": 0.2479,
+    "recovered_count": 90,
+    "retries_attempted": 363
+  },
+  "incremental_recovery": 26854.0,
+  "retries_avoided": 223,
+  "do_not_retry_count": 193,
+  "bounce_fee": {
+    "fee_per_retry": 500.0,
+    "fee_assumption": "\u20b9500 bank bounce charge per failed attempt as specified in PRD.md",
+    "savings_from_retries_avoided": 111500.0,
+    "savings_from_do_not_retry": 96500.0
+  },
+  "decision_breakdown": {
+    "RESCHEDULE": 99,
+    "DO_NOT_RETRY": 193,
+    "RETRY_NOW": 41,
+    "REAUTHORIZE_MANDATE": 25,
+    "WAIT_FOR_BETTER_WINDOW": 5
+  },
+  "generated_at": "2026-09-04T19:30:50.482492"
+}

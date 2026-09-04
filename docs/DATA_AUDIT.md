@@ -3,7 +3,9 @@
 ## 1. Overview
 The workspace contains 6 CSV datasets representing a synthetic financial ecosystem with mandates (UPI AutoPay), transactions, customer profiles, consents, and recovery actions. 
 
-This audit reviews the schemas, data quality, and relationship integrity across the datasets, and highlights inconsistencies between the existing generator script (`generate_synthetic_data.py`) and the actual CSV files. It also addresses critical data leakage concerns for Machine Learning tasks.
+> **"The canonical CSVs were the given hackathon dataset; we treated them as ground truth and audited them for leakage — full audit in docs/DATA_AUDIT.md."**
+
+This audit reviews the schemas, data quality, and relationship integrity across the datasets, and addresses critical data leakage concerns for Machine Learning tasks. For detailed dataset provenance and generator reconciliation, see [docs/DATA_PROVENANCE.md](DATA_PROVENANCE.md) and [docs/DATA_CONTRACT.md](DATA_CONTRACT.md).
 
 ---
 
@@ -157,16 +159,17 @@ erDiagram
 
 ---
 
-## 4. Inconsistencies: Generator Script vs. Actual Datasets
+## 4. Generator Status & Dataset Provenance
 
-The provided `generate_synthetic_data.py` does **not** accurately represent the creation of the current datasets. Several major inconsistencies exist:
+The provided `generate_synthetic_data.py` is an older/incomplete generator prototype and does **not** reproduce the current canonical six-file dataset. Major differences include:
 
-1. **Missing Files:** The script only generates 4 datasets (`customers`, `transactions`, `mandates`, `mandate_attempts`). It has no logic to generate `consents.csv` or `recovery_actions.csv`, which exist in the directory.
+1. **Missing Files:** The script only defines 4 datasets (`customers`, `transactions`, `mandates`, `mandate_attempts`). It has no logic to generate `consents.csv` or `recovery_actions.csv`.
 2. **Schema Differences:**
    - In `customers.csv`: The generator script assigns an `income_type` (e.g., `salaried_fixed`), but the actual CSV contains enriched fields like `behavior_type` and `scenario_tag`.
    - In `mandate_attempts.csv`: The generator script does not output the `ground_truth_retry_date` or `ground_truth_recoverable` columns.
-3. **Output Paths:** The script writes to Linux-style paths (`/mnt/user-data/outputs/...`), indicating that the script might be an older iteration or it was run in a different environment and its outputs were subsequently post-processed or enriched by another unprovided script.
-4. **Data Scale:** The script simulates `120` customers, but `customers.csv` has `168` rows.
+3. **Output Paths & Scale:** The script writes to Linux-style paths (`/mnt/user-data/outputs/...`) and simulates only 120 customers, whereas the canonical dataset contains 168 customers and 1,746 attempts.
+
+**Conclusion:** The existing `generate_synthetic_data.py` is **not** part of the final data-generation or recovery pipeline and does not need to be rewritten for hackathon submission. The six canonical CSVs are the authoritative input dataset. For details, see [docs/DATA_PROVENANCE.md](DATA_PROVENANCE.md) and [docs/DATA_CONTRACT.md](DATA_CONTRACT.md).
 
 ---
 

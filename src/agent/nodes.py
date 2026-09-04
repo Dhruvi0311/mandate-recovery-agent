@@ -42,11 +42,14 @@ def llm_chat_node(state: AgentState, llm) -> AgentState:
                 kwargs = tool_call["args"]
                 
                 if tool_name == "schedule_retry":
+                    dec_ctx = dict(vars(state["decision_context"])) if hasattr(state["decision_context"], '__dict__') else dict(state["decision_context"])
+                    if "customer_id" not in dec_ctx or not dec_ctx["customer_id"]:
+                        dec_ctx["customer_id"] = state.get("customer_id")
                     result = schedule_retry.invoke({
                         "attempt_id": state["attempt_id"],
                         "agreed_date": kwargs.get("agreed_date"),
                         "consent_granted": state["consent_granted"],
-                        "decision_context": vars(state["decision_context"]) if hasattr(state["decision_context"], '__dict__') else state["decision_context"]
+                        "decision_context": dec_ctx
                     })
                     state["action_status"] = "COMPLETED"
                     state["messages"].append(f"Tool {tool_name} success: {result}")
